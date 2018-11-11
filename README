@@ -1,0 +1,13 @@
+# Kafka streams scala examples
+
+## Documentation
+* https://kafka.apache.org/20/documentation/streams/developer-guide/dsl-api.html#scala-dsl
+* https://kafka.apache.org/20/documentation/streams/developer-guide/write-streams.html
+* https://cwiki.apache.org/confluence/display/KAFKA/KIP-270+-+A+Scala+Wrapper+Library+for+Kafka+Streams
+## How to test
+* https://kafka.apache.org/20/documentation/streams/developer-guide/testing.html
+
+## Special credits
+Thanks to Alexis Seigneurin for creating the Scala Kafka Streams wrapper
+
+
