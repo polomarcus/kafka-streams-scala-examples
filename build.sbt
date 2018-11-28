@@ -4,7 +4,7 @@ organization := "com.github.polomarcus"
 
 version := "0.0.1"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.12.7"
 val kafkfaVersion = "2.0.0"
 val logback = "1.2.3"
 
@@ -14,7 +14,6 @@ scalacOptions := Seq("-Xexperimental", "-unchecked", "-deprecation")
 //Add Circe if needed
 
 // logging
-//libraryDependencies += "ch.qos.logback" % "logback-core" % logback
 libraryDependencies += "ch.qos.logback" % "logback-classic" % logback
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.0"
 
