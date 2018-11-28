@@ -47,7 +47,7 @@ nom	106
 ## CI - Test - Travis 
 Tests used in Travis, see [.travis.yml](https://github.com/polomarcus/kafka-streams-scala-examples/blob/master/.travis.yml)
 
-Run the streams app during 60 seconds
+Run the streams app during 60 seconds and stop it
 ```
 timeout 60 sbt run 
 ```
@@ -71,8 +71,3 @@ Then, test if the output topic contains messages
 
 ## Special credits
 Thanks to Alexis Seigneurin for creating the [Scala Kafka Streams API](https://github.com/aseigneurin/kafka-streams-scala) in 2017
-
-
-
-https://stackoverflow.com/questions/5161193/how-to-kill-a-child-process-after-a-given-timeout-in-bash
-https://stackoverflow.com/questions/34230418/how-to-get-process-id-of-sbt
